@@ -1,0 +1,16 @@
+[project]
+name = "seerscript"
+version = "0.1.0"
+description = "Testing python code with the pytest tool"
+authors = [
+    {name = "victoire67",email = "ansimavicky@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pytest (>=9.1.1,<10.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
